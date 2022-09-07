@@ -1,13 +1,19 @@
 .result-pad {
   padding: 8px;
-  width: 30rem;
+  width: 29rem;
   text-align: end;
+  background-color: grey;
+  color: white;
 }
 
 .buttons {
   width: 30rem;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+}
+
+button {
+  padding: 5px;
 }
 
 button:nth-child(4n) {
