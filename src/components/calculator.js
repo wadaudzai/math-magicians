@@ -2,22 +2,15 @@ import React from 'react';
 import calculate from '../logic/calculate';
 import { useState } from 'react';
 
-// class Calculator extends React.Component {
-//     constructor(props) {
-//         super(props)
-//         this.state = {};
-//         this.handleEvent = this.handleEvent.bind(this); 
-//     }
+
 
     const Calculator = () => {
         const [myState, mySetStt] = useState({ total: 0, process: '', next: '' });
     
 
-    // handleEvent(e) {
-    //     this.setState((state) => calculate(state, e.target.textContent));
-    // }
+    
     const { total, process, next } = myState;
-//   render() {
+
     const handleEvent = (e) => {
         mySetStt((myState) => calculate(myState, e.target.textContent));
       };
