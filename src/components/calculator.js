@@ -5,18 +5,18 @@ import { useState } from 'react';
 
 
     const Calculator = () => {
-        const [myState, mySetStt] = useState({ total: 0, process: '', next: '' });
+        const [myState, mySetStt] = useState({ total: 0, operation: '', next: '' });
     
 
     
-    const { total, process, next } = myState;
+    const { total, operation, next } = myState;
 
     const handleEvent = (e) => {
         mySetStt((myState) => calculate(myState, e.target.textContent));
       };
     return (
       <div className='calculator-container'>
-        <div className='result-pad'>{(total ? total : '') + (process ? process : '') + (next ? next : '')}</div>
+        <div className='result-pad'>{(total ? total : '') + (operation ? operation : '') + (next ? next : '')}</div>
         <div className='buttons'>
             <button type='button' onClick={handleEvent}>AC</button>
             <button type='button' onClick={handleEvent}>+/-</button>
