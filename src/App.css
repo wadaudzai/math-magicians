@@ -35,3 +35,37 @@ button:nth-child(19) {
   justify-content: center;
   margin-top: 10rem;
 }
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  list-style-type: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  align-items: center;
+}
+
+.text-1 {
+  font-size: 5vh;
+}
+
+.nav-link {
+  font-size: 2vw;
+  color: cornflowerblue;
+}
+
+.home {
+  margin: 2rem;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
