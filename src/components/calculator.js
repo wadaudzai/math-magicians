@@ -16,6 +16,10 @@ import { useState } from 'react';
       };
     return (
       <div className='calculator-container'>
+        <div>
+        <h1>Lets do some math.</h1>
+      </div>
+      <div className="calc-div">
         <div className='result-pad'>{(total ? total : '') + (operation ? operation : '') + (next ? next : '')}</div>
         <div className='buttons'>
             <button type='button' onClick={handleEvent}>AC</button>
@@ -37,6 +41,7 @@ import { useState } from 'react';
             <button type='button' onClick={handleEvent}>0</button>
             <button type='button' onClick={handleEvent}>.</button>
             <button type='button' onClick={handleEvent}>=</button>
+        </div>
         </div>
       </div>
     );
