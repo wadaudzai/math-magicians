@@ -1,6 +1,6 @@
 # Math Magicians
 
-> This project was built to display a react app
+> This project was built to display a react app that displayed a calculator. This websites consists of 3 section which we created using React Router. We also created the UI and finally for all the parts that are related to logic we created tests.
 
 
 ## Built With

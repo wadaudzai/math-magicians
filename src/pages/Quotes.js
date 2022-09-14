@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+
 const Quotes = () => (
   <h1 className="quote">
     Mathematics isnt about numbers, equations,computations
