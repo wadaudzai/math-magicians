@@ -30,6 +30,11 @@ You just need a good computer and a code editor.
 - Twitter: [@wadaudzai](https://twitter.com/wadaudzai)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/wadaudzai)
 
+👤 **Author 2 - Angel Uray**
+- GitHub: [@angeluray](https://github.com/angeluray)
+- Twitter: [@atangeluray](https://twitter.com/atangeluray)
+- LinkedIn: [Angel Uray](www.linkedin.com/in/angeluray-jobs)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
