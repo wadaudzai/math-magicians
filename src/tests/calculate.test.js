@@ -1,4 +1,4 @@
-import calculate from '../Logic/calculate';
+import calculate from '../Logic/calculate.js';
 
 describe('Check calculate function behavior according to the operation', () => {
   test('Sum operation button', () => {
