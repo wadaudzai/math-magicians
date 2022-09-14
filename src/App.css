@@ -30,9 +30,9 @@ button:nth-child(19) {
 
 .calculator-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
   margin-top: 10rem;
 }
 
@@ -63,9 +63,6 @@ button:nth-child(19) {
   margin: 2rem;
 }
 
-.calculator-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: baseline;
+.quote {
+  margin: 2rem;
 }
