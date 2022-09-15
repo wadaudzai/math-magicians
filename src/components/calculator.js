@@ -14,6 +14,7 @@ import { useState } from 'react';
     const handleEvent = (e) => {
         mySetStt((myState) => calculate(myState, e.target.textContent));
       };
+      
     return (
       <div className='calculator-container'>
         <div>

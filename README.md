@@ -1,6 +1,6 @@
 # Math Magicians
 
-> This project was built to display a react app
+> This project was built to display a react app that displayed a calculator. This websites consists of 3 section which we created using React Router. We also created the UI and finally for all the parts that are related to logic we created tests.
 
 
 ## Built With
@@ -29,6 +29,11 @@ You just need a good computer and a code editor.
 - GitHub: [@wadaudzai](https://github.com/wadaudzai)
 - Twitter: [@wadaudzai](https://twitter.com/wadaudzai)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/wadaudzai)
+
+👤 **Author 2 - Angel Uray**
+- GitHub: [@angeluray](https://github.com/angeluray)
+- Twitter: [@atangeluray](https://twitter.com/atangeluray)
+- LinkedIn: [Angel Uray](www.linkedin.com/in/angeluray-jobs)
 
 ## 🤝 Contributing
 
